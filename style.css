@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(CSXM4513.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.container{
+    border: 3px solid red;
+    height: 400px;
+    width: 340px;
+    margin: 170px auto;
+    padding: 20px;
+    background-color: aquamarine;
+    border: none;
+}
+
+button{
+    width: 60px;
+    height: 55px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: burlywood;
+}
+
+
+
+
+#answer{
+    width: 97%;
+    margin-right: 0px;
+    height: 70px;
+    border-radius: 0px;
+}
