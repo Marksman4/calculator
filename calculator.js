@@ -103,7 +103,7 @@ function multiply(){
 }
 
 function equalto(){
-    calculation = eval(calculation);
+    calculation = calculation + " = " + eval(calculation);
     //alert(calculation);
     document.getElementById("answer").innerHTML=calculation;
 }
