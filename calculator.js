@@ -107,5 +107,11 @@ function equalto(){
     //alert(calculation);
     document.getElementById("answer").innerHTML=calculation;
 }
+function cancel(){
+    calculation = '';
+    document.getElementById("answer").innerHTML=calculation;
+
+}
+
 
 
